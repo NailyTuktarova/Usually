@@ -9,6 +9,7 @@ body{
     font-size: 20px;
     line-height: 24px;
     color: #FFFFFF;
+    margin: 0;
 }
 a{
     text-decoration: none;
@@ -35,15 +36,19 @@ padding: 0 10px;
     
 }
 .header_top{
+    height: 96px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    column-gap: 36px;
     background-color: rgba(242, 120, 92, 0.7);
     background-size: cover;
 }
 .logo_img{
-    padding: 25px 158px 34px 0;
+
 }
 .header_login{
     font-size: 16px;
@@ -59,19 +64,14 @@ padding: 0 10px;
     border-radius: 10px;
 }
 .menu{
-    width: 100%;
-    border-top: 1px;
-    margin-top: 32px;
-    padding: 25px 120px 0 34px;
-    width: 527px;
-    height: 21px;
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 .menu_list{
     display: flex;
-    justify-content: space-between;
+    column-gap: 24px;
+    flex-wrap: wrap;
     color:#FFFFFF;
-    
 }
 
 
